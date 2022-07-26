@@ -44,6 +44,9 @@ const userPrompt = () => {
                 case 'Add Role':
                     addRole();
                     break;
+                case 'View totalized budget':
+                    addTotal();
+                    break;
                 case 'I am finished':
                     break;
             }
@@ -55,5 +58,6 @@ module.exports = { userPrompt }
 const { viewAllEmployees, viewEmployeeDepartment, viewEmployeeManagement, addEmployee, updateEmployee } = require('./employee');
 const { Department, addDepartment } = require('./department');
 const { showRoles, addRole } = require('./role');
+const { addTotal } = require('./equations')
 
 userPrompt()
