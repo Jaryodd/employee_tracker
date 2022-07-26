@@ -3,4 +3,4 @@
 
 ##
 A command line application that allows business owners to track employees by role, department, or manager.
-also allows the owner to track the budget of each department.
+also allows the owner to track the budget of each department!
